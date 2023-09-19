@@ -5,12 +5,12 @@
 ### linux (ubuntu):
 
 #### install python and opencv:
-apt update
+apt update<br />
 apt -y upgrade 
 
-apt-get install -y python3.10
-apt-get install -y python3.10-distutils
-apt-get install -y python3-pip
+apt-get install -y python3.10<br />
+apt-get install -y python3.10-distutils<br />
+apt-get install -y python3-pip<br />
 apt-get install -y python3-opencv
 
 #### install other requirements
