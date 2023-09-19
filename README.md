@@ -27,9 +27,22 @@ python3.10 -m pip install -r requirements.txt
 #### install opencv
 download opencv-4.8.0-windows.exe from https://github.com/opencv/opencv/releases and install it 
 
-## usage
+## Usage
 
 ### start the programm
 python depth.py
 
 ### shortcuts
+|   shortcut   |    function    |
+|--------------|----------------|
+| q| quit |
+| w|  safe 1 image| 
+| r|  calc volume of the images| 
+| t|  write 10 images|
+| e|  print depth image in a nice way|
+| z|  set base volume|
+| u|  delete images|
+| i|  calc difference to base volume|
+| p|  print pixel value at some positions|
+| f|  enter FloorMode:  double-click on the image to mark the floor area|
+| v|  enter ValidMode:  double-click on the image to mark the valid area|
