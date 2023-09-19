@@ -1,5 +1,7 @@
 # volumeByDepth
 
+This script can be used to setup an oak-d or oak-d pro and use its depth images to calculate a resulting volume
+
 ## Installation
 
 ### linux (ubuntu):
@@ -36,11 +38,11 @@ python depth.py
 |   shortcut   |    function    |
 |--------------|----------------|
 | q| quit |
-| w|  safe 1 image| 
-| r|  calc volume of the images| 
-| t|  write 10 images|
-| e|  print depth image in a nice way|
-| z|  set base volume|
+| w|  save 1 image| 
+| r|  calc volume of the saved images| 
+| t|  save 10 images (one every 2 seconds)|
+| e|  save depth image in a nice way|
+| z|  set base volume and delete processed images|
 | u|  delete images|
 | i|  calc difference to base volume|
 | p|  print pixel value at some positions|
